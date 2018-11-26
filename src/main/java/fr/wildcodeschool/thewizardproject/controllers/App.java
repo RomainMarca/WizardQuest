@@ -9,7 +9,7 @@ public class App {
 	public void start() {
 		
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:applicationContext.xml");
-        WizardInterface wizard = context.getBean("theWizard", WizardInterface.class);
+        WizardInterface wizard = context.getBean("dumbledoreId", WizardInterface.class);
         context.close();
         System.out.println("******************");
         System.out.println(wizard.giveAdvice());
