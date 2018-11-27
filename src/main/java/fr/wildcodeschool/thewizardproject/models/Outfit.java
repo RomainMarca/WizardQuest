@@ -1,5 +1,6 @@
 package fr.wildcodeschool.thewizardproject.models;
 
+@Component
 public class Outfit {
 	
 	public String wearDress() {
